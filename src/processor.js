@@ -29,7 +29,6 @@ async function processCSV(event) {
                 password: config.credentials.password
             }
             let authentication = await axiosUtil.makeRequest('post', loginAPI, headers, body, 5000);
-            // logger.log('debug', 'authentication', authentication);
             if ('status' in authentication && authentication.status === 204) {
                 let session = authentication.headers['x-egain-session'];
                 let headers = {
@@ -91,7 +90,6 @@ async function processCSV(event) {
                         }
                     }
                     let customer = await axiosUtil.makeRequest('post', createCustomerAPI, headers, requestBody, 20000);
-                    // logger.log('debug', 'customer', customer);
                     if('status' in customer && customer.status === 201){
                         count = count + 1;
                         logger.log('debug', 'count', count);
