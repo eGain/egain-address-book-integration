@@ -12,6 +12,5 @@ This example deals with the architecture involved in importing contacts from an 
 6. eGain system with valid agent credentials
 
 # Architecture Diagram
-
-https://user-images.githubusercontent.com/18159903/117599809-7621ae80-b0ff-11eb-9bc7-5421dcdd9c30.png
+![address-book-architecture](https://user-images.githubusercontent.com/18159903/117599809-7621ae80-b0ff-11eb-9bc7-5421dcdd9c30.png)
 
