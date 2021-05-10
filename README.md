@@ -11,4 +11,7 @@ This example deals with the architecture involved in importing contacts from an 
 5. npm installed on your system
 6. eGain system with valid agent credentials
 
+# Architecture Diagram
+
+https://user-images.githubusercontent.com/18159903/117599809-7621ae80-b0ff-11eb-9bc7-5421dcdd9c30.png
 
