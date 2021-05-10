@@ -3,7 +3,7 @@
 This example deals with the architecture involved in importing contacts from an external address book (CSV) for a customer into eGain, such that agent would get contact suggestions while looking for a contact in eGain Advisor desktop.
 
 # Architecture Diagram
-![address-book-architecture](https://user-images.githubusercontent.com/18159903/117599809-7621ae80-b0ff-11eb-9bc7-5421dcdd9c30.png)
+![eGain_address_import](https://user-images.githubusercontent.com/18159903/117732549-b80d2c00-b1b5-11eb-848b-82fd6bd3109c.png)
 
 # Architecture Overview
 When a CSV file (refer to address-book.csv for the structure) is uploaded to the created s3 bucket, then an object create event is generated which in turn is being sent to the lambda for processing. This lambda will process the contacts in the CSV to JSON and call the eGain login API to authenticate and in turn calls eGain create individual customer API to create the entries in the eGain database.
