@@ -16,7 +16,7 @@ When a CSV file (refer to address-book.csv for the structure) is uploaded to the
 
 # Installation Steps:
 
-1. Go to your terminal and do git clone https://github.com/naveenmano/eGain-address-book.git
+1. Go to your terminal and do git clone https://github.com/eGain/egain-address-book-integration.git
 2. Move to the root of the cloned repository in your system and do npm install
 3. Fetch the eGain server host name and the agent credentials for your system
 4. Add these details into the config.js inside the src folder and save it (In the prduction app store these credentials in AWS secret manager and call them during run time)
